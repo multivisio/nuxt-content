@@ -9,6 +9,14 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/scripts',
     '@nuxt/image',
-    '@nuxt/fonts'
-  ]
+    '@nuxt/fonts',
+    'pinia-plugin-persistedstate',
+  ],
+  content: {
+    build: {
+      toc: {
+        depth: 3,
+      }
+    }
+  },
 })
